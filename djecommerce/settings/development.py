@@ -45,3 +45,5 @@ DATABASES = {
 
 STRIPE_PUBLIC_KEY = ''
 STRIPE_SECRET_KEY = ''
+
+django_heroku.settings(locals())
